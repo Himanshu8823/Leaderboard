@@ -17,7 +17,7 @@ const app = express();
 // backend/server.js
 
 const corsOptions = {
-    origin: "https://frontend-cb6a.onrender.com/",
+    origin: "https://frontend-cb6a.onrender.com",
     methods : "GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials :true
 };
