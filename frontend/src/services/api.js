@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create an Axios instance for API requests
 const api = axios.create({
   baseURL: 'https://backend-service-md3z.onrender.com/api',
-  timeout: 10000,
+  timeout: 60000,
   headers: {
     'Content-Type': 'application/json'
   }
